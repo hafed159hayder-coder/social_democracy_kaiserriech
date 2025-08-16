@@ -160,9 +160,9 @@ Q.reichswehr_loyalty = 0.2;
 // nationalism vs internationalism or pacifism or non-nationalism
 Q.nationalism = 60;
 // socialism vs capitalism
-Q.socialism = 40;
+Q.socialism = 25;
 // pro-republic vs anti-republic
-Q.pro_monarchy = 59;
+Q.pro_monarchy = 70;
 
 Q.emergency_rule = 0;
 
