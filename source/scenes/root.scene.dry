@@ -48,16 +48,16 @@ Q.dissent_percent = 5;
 // factions
 Q.factions = ['left', 'center', 'labor', 'reformist', 'neorevisionist'];
 // should this be normalized to 100%?
-Q.left_strength = 15;
-Q.left_dissent = 20;
-Q.center_strength = 30;
-Q.center_dissent = 0;
-Q.labor_strength = 25;
-Q.labor_dissent = 5;
-Q.reformist_strength = 25;
-Q.reformist_dissent = 5;
-Q.neorevisionist_strength = 5;
-Q.neorevisionist_dissent = 10;
+Q.left_strength = 20;
+Q.left_dissent = 40;
+Q.center_strength = 45;
+Q.center_dissent = 10;
+Q.labor_strength = 15;
+Q.labor_dissent = 30;
+Q.reformist_strength = 10;
+Q.reformist_dissent = 25;
+Q.neorevisionist_strength = 10;
+Q.neorevisionist_dissent = 30;
 
 // secret events...
 Q.unions_independent = 0;
@@ -66,7 +66,7 @@ Q.left_split = 0;
 Q.reformists_resigned = 0;
 
 // have we discovered neorevisionism?
-Q.neorevisionism = 0;
+Q.neorevisionism = 1;
 
 // crisis_urgency indicates how seriously the SPD is taking the economic crisis - scale from 0 to 10.
 Q.crisis_urgency = 0;
