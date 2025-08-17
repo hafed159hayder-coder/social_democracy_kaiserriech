@@ -160,7 +160,7 @@ Q.reichswehr_loyalty = 0.2;
 // nationalism vs internationalism or pacifism or non-nationalism
 Q.nationalism = 60;
 // socialism vs capitalism
-Q.socialism = 25;
+Q.socialism = 15;
 // pro-republic vs anti-republic
 Q.pro_monarchy = 70;
 
@@ -220,7 +220,7 @@ Q.old_middle_qol = 100;
 Q.new_middle_qol = 100;
 
 Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'catholics'];
-Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
+Q.parties = ['spd', 'kapd', 'z', 'lvp', 'dkp', 'dvlp', 'other'];
 
 // TODO: add 'sapd' later on
 Q.sapd_formed = 0;
@@ -288,14 +288,13 @@ Q.catholics_other = 12;
 // note: the Z figures also include the BVP (Bavarian people's party)
 // since they were ideologically similar, but they were separate parties.
 // They did not have a CDU/CSU-style relationship.
-Q.spd_r = 26;
-Q.kpd_r = 9;
-Q.z_r = 17;
-Q.ddp_r = 6;
-Q.dvp_r = 10;
-Q.dnvp_r = 20;
-Q.nsdap_r = 3;
-Q.other_r = 9;
+Q.spd_r = 125;
+Q.kapd_r = 8;
+Q.z_r = 99;
+Q.lvp_r = 59;
+Q.dkp_r = 50;
+Q.dvlp_r = 65;
+Q.other_r = 39;
 
 // diff from prev
 Q.old_spd_r = 26;
@@ -323,17 +322,16 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "Hindenburg";
+Q.monarch = "Wilhelm II";
 // starting chancellor: Wilhelm Marx
 Q.chancellor = "Marx";
 Q.chancellor_party = 'Z';
 Q.spd_in_government = 0;
 Q.z_in_government = 1;
-Q.ddp_in_government = 0;
-Q.dvp_in_government = 1;
-Q.dnvp_in_government = 1;
-Q.kpd_in_government = 0;
-Q.nsdap_in_government = 0;
+Q.lvp_in_government = 1;
+Q.dkp_in_government = 1;
+Q.kapd_in_government = 0;
+Q.dvlp_in_government = 0;
 
 Q.in_right_coalition = 0;
 // Weimar coalition = SPD + Z + DDP
@@ -362,7 +360,7 @@ Q.kpd_coalition_dissent = 0;
 Q.spd_toleration = 0;
 
 // is the current government a presidential minority government?
-Q.minority_government = 0;
+Q.minority_government = 1;
 
 // ministries - which parties control the ministries?
 // starting with the 4th Marx cabinet https://en.wikipedia.org/wiki/Fourth_Marx_cabinet
